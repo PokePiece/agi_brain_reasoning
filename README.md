@@ -37,3 +37,15 @@ Ensure you have **SBCL** (Steel Bank Common Lisp) installed.
 
 ```bash
 sbcl --script brain-core.lisp
+```
+## Planned Extensions
+
+Replace Prolog stub with live integration (swipl or similar).
+
+Add argument-based dispatch to support multiple Lisp modes (e.g., introspection, visualization, transformation).
+
+Allow input/output streams or sockets for communication with the Python orchestrator.
+
+## License
+
+MIT
